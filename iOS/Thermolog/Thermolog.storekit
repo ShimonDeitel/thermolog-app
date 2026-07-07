@@ -1,0 +1,40 @@
+{
+  "identifier" : "Thermolog",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "thermolog_pro_group",
+      "localizations" : [],
+      "name" : "Thermolog Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "thermolog_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlocks Correlation chart of temperature vs sleep quality",
+              "displayName" : "Thermolog Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.bedroomtemplog.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Thermolog Pro Monthly",
+          "subscriptionGroupID" : "thermolog_pro_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
