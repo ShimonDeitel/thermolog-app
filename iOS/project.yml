@@ -35,7 +35,6 @@ targets:
     platform: iOS
     sources:
       - path: ThermologTests
-      - path: Thermolog.storekit
     dependencies:
       - target: Thermolog
     settings:
